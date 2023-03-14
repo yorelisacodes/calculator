@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+
+}
+html{
+  font-size: 62.5%;
+
+}
+.minical{
+  width: 9%;
+  height: 217px;
+  float: left;
+  border: 3px solid black;
+}
+#add{
+  width: 50%;
+}
+#subtract{
+  width: 42%;
+}
+#multiply{
+  width: 36%;
+}
+#divide{
+  width: 41%;
+}
+h2{
+  font-size: 3.25rem;
+}
