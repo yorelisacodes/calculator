@@ -2,27 +2,77 @@
   box-sizing: border-box;
 
 }
+body{
+  display: flex;
+  justify-content: center;
+  margin-top: 9%;
+  background-color: gray;
+}
 html{
   font-size: 62.5%;
 
 }
+
+.container{
+  width: 15%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid teal;
+  background-color: teal;
+  border-radius: 6px;
+}
+h1{
+  text-align: center;
+}
 .minical{
-  width: 9%;
-  height: 217px;
-  float: left;
-  border: 3px solid black;
+  height: 25vh;
+}
+#one{
+  width: 45%;
+  border-radius: 6px;
+  border: none;
+  height: 30px;
+}
+
+#two{
+  width: 45%;
+  border-radius: 6px;
+  border: none;
+  height: 30px;
+}
+.button{
+  display: flex;
+  justify-content: space-evenly;
+  height: 25vh;
+  align-items: center;
+  flex-direction: column;;
 }
 #add{
   width: 50%;
+  border-radius: 10px;
+  background-color: #ff928b;
+
 }
 #subtract{
-  width: 42%;
+  width: 50%;
+  border-radius: 10px;
+  background-color: #41b69f
 }
 #multiply{
-  width: 36%;
+  width: 50%;
+  border-radius: 10px;
+  background-color: #ff928b;
 }
-#divide{
-  width: 41%;
+#devide{
+  width: 50%;
+  border-radius: 10px;
+  background-color: #41b69f
+}
+#percent{
+  width: 50%;
+  border-radius: 10px;
+  background-color: #ff928b;
 }
 h2{
   font-size: 3.25rem;
